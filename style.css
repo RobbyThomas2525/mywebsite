@@ -96,10 +96,9 @@ footer {
 
 .pc-wrapper {
   display: flex;
-  align-items: flex-start;
   gap: 40px;
   margin-top: 40px;
-  justify-content: center; /* centers whole block */
+  justify-content: center;
 }
 
 .pc-left {
@@ -117,21 +116,8 @@ footer {
 }
 
 .pc-section {
-  margin-top: 30px;
+  background: #111;
   padding: 20px;
-  background-color: #111;
   border-radius: 10px;
-}
-
-.pc-section h2 {
-  margin-bottom: 10px;
-}
-
-.pc-section ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.pc-section li {
-  margin-bottom: 6px;
+  margin-top: 20px;
 }
