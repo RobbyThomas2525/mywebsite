@@ -125,31 +125,3 @@ footer {
   text-transform: lowercase;
 }
 
-/* remove all spacing */
-body, .pc-flex, .pc-flex * {
-  margin: 0;
-  padding: 0;
-}
-
-/* force image and text to sit side by side */
-.pc-flex {
-  display: inline-flex;      /* keeps them on the same line */
-  align-items: flex-start;
-  vertical-align: top;
-  font-size: 0;              /* removes invisible inline spacing */
-}
-
-/* bigger image */
-.pc-pfp {
-  width: 420px;
-  height: 420px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-/* text flush against image */
-.pc-text {
-  display: inline-block;
-  font-size: 16px;           /* restores readable text size */
-}
-
