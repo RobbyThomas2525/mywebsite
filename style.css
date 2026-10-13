@@ -1,99 +1,40 @@
-/* Global styles */
-body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  max-width: 700px;
 }
 
-/* Header */
-header {
-    background-color: #111;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 36px;
-}
-
-/* Navigation */
-nav {
-    text-align: center;
-    margin-top: 20px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-}
-
-nav a:hover {
-    color: #0f0;
-}
-
-/* Homepage layout */
-.main-content {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 40px;
-    justify-content: center;
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
 }
 
 .profile-pic {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
-.text-content {
-    margin-left: 20px;
+.intro-text h1 {
+  margin: 0;
+  font-size: 2.2rem;
 }
 
-/* Sections */
-section {
-    background-color: #111;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-/* PC‑Specs PAGE — NEW WORKING LAYOUT */
-.pc-layout {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 0; /* NO GAP */
-}
-
-/* Bigger profile picture for PC‑Specs */
-.pc-pfp {
-    width: 420px;
-    height: 420px;
-    border-radius: 50%;
-    margin: 0;
-    padding: 0;
-}
-
-/* Text sits flush to the right */
-.pc-text {
-    margin: 0;
-    padding: 0;
-}
-
-/* PC sections */
 .pc-section {
-    background: #111;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #111;
+  border-radius: 10px;
 }
 
-.pc-section h2,
+.pc-section h2 {
+  margin-bottom: 10px;
+}
+
+.pc-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .pc-section li {
-    text-transform: lowercase;
+  margin-bottom: 6px;
 }
