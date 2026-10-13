@@ -94,26 +94,29 @@ footer {
   max-width: 700px;
 }
 
-.profile-container {
+.pc-layout {
   display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 40px;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.pc-left {
+  flex: 0 0 200px;
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
-.intro-text h1 {
-  margin: 0;
-  font-size: 2.2rem;
+.pc-right {
+  flex: 1;
 }
 
 .pc-section {
-  margin-top: 40px;
+  margin-top: 30px;
   padding: 20px;
   background-color: #111;
   border-radius: 10px;
@@ -131,9 +134,3 @@ footer {
 .pc-section li {
   margin-bottom: 6px;
 }
-
-
-
-
-
-
