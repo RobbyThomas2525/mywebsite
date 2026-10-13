@@ -96,23 +96,21 @@ footer {
 
 .pc-wrapper {
   display: flex;
-  gap: 50px;
   margin-top: 40px;
-  justify-content: center;
 }
 
 .pc-left {
-  flex: 0 0 260px; /* bigger space for bigger image */
+  flex: 0 0 auto;
 }
 
 .profile-pic {
-  width: 260px;   /* bigger image */
-  height: 260px;
+  width: 320px;   /* bigger image */
+  height: 320px;
   border-radius: 50%;
 }
 
 .pc-right {
-  flex: 1;
+  margin-left: 20px; /* small spacing so text isn't touching the image */
 }
 
 .pc-section {
@@ -122,17 +120,7 @@ footer {
   margin-top: 20px;
 }
 
-.pc-section h2 {
-  margin-bottom: 10px;
-  text-transform: lowercase; /* forces lowercase titles */
-}
-
-.pc-section ul {
-  list-style: none;
-  padding-left: 0;
-}
-
+.pc-section h2,
 .pc-section li {
-  margin-bottom: 6px;
-  text-transform: lowercase; /* forces lowercase specs */
+  text-transform: lowercase;
 }
