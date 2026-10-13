@@ -94,23 +94,19 @@ footer {
   max-width: 700px;
 }
 
-.pc-wrapper {
+.container {
   display: flex;
-  margin-top: 40px;
+  align-items: flex-start;
 }
 
-.pc-left {
-  flex: 0 0 auto;
+.left {
+  margin-right: 20px; /* small spacing */
 }
 
 .profile-pic {
-  width: 320px;   /* bigger image */
-  height: 320px;
+  width: 350px;   /* bigger picture */
+  height: 350px;
   border-radius: 50%;
-}
-
-.pc-right {
-  margin-left: 20px; /* small spacing so text isn't touching the image */
 }
 
 .pc-section {
