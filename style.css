@@ -94,26 +94,22 @@ footer {
   max-width: 700px;
 }
 
-.container {
+.main-content {
   display: flex;
   align-items: flex-start;
-  gap: 0;              /* removes ALL spacing */
-}
-
-.left {
-  margin: 0;           /* no margin */
-  padding: 0;          /* no padding */
 }
 
 .profile-pic {
-  width: 380px;        /* bigger image */
+  width: 380px;   /* bigger image */
   height: 380px;
   border-radius: 50%;
+  margin: 0;      /* no gap */
+  padding: 0;     /* no gap */
 }
 
-.right {
-  margin-left: 0;      /* no gap */
-  padding-left: 0;     /* no padding */
+.text-content {
+  margin-left: 0; /* remove gap */
+  padding-left: 0;
 }
 
 .pc-section {
