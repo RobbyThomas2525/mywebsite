@@ -124,3 +124,29 @@ footer {
 .pc-section li {
   text-transform: lowercase;
 }
+
+/* STEP 1 — remove ALL spacing inside the layout */
+.pc-flex,
+.pc-flex * {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* STEP 3 — flex layout with NO GAP + bigger image */
+.pc-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 0 !important;
+}
+
+.pc-pfp {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+}
+
+.pc-text {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
