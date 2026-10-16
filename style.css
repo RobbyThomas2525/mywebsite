@@ -45,22 +45,17 @@
 .hero {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   margin-bottom: 60px;
 }
 
-.header-left {
-  flex-shrink: 0;
-}
-
-.pfp-small {
-  width: 80px;
-  height: 80px;
+.pfp-left {
+  width: 60px;      /* smaller */
+  height: 60px;     /* smaller */
   border-radius: 50%;
   object-fit: cover;
 }
 
-.header-right {
+.header-text {
   max-width: 700px;
 }
-
