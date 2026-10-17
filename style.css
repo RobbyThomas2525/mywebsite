@@ -78,3 +78,44 @@ footer {
   margin-top: 40px;
 }
 
+.pc-specs-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.pc-profile img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.pc-specs {
+    max-width: 500px;
+}
+
+.pc-specs h2 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.pc-specs h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.pc-specs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pc-specs ul li {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
