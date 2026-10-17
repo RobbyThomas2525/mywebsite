@@ -84,6 +84,7 @@ footer {
     font-size: 40px;
 }
 
+/* Matches your BIO section but in left/right layout */
 .bio-split-container {
     display: flex;
     justify-content: center;
