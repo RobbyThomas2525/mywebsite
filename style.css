@@ -113,3 +113,14 @@ footer {
     max-width: 500px;
     font-size: 15px;
 }
+
+.bio-right h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.bio-right p {
+    margin: 0;
+    padding: 0;
+}
+
