@@ -100,8 +100,8 @@ footer {
 
 /* Profile picture style */
 .bio-pfp {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;
