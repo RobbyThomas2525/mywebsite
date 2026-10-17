@@ -78,15 +78,20 @@ footer {
   margin-top: 40px;
 }
 
-.pc-specs-container {
+.pc-specs-wrapper {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     gap: 40px;
     padding: 40px;
 }
 
-.pc-profile img {
+.pc-left {
+    flex-shrink: 0;
+}
+
+.pc-pfp {
     width: 220px;
     height: 220px;
     border-radius: 50%;
@@ -95,26 +100,26 @@ footer {
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
-.pc-specs {
+.pc-right {
     max-width: 500px;
 }
 
-.pc-specs h2 {
+.pc-right h2 {
     margin-bottom: 10px;
     font-size: 32px;
 }
 
-.pc-specs h3 {
+.pc-right h3 {
     margin-top: 20px;
     font-size: 24px;
 }
 
-.pc-specs ul {
+.pc-right ul {
     list-style: none;
     padding: 0;
 }
 
-.pc-specs ul li {
+.pc-right ul li {
     margin: 5px 0;
     font-size: 18px;
 }
