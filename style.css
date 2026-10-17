@@ -84,21 +84,16 @@ footer {
     font-size: 40px;
 }
 
-/* Matches your BIO section but in left/right layout */
-.bio-split-container {
+/* EXACT BIO STYLE but horizontal */
+.pc-bio-layout {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
     margin-top: 40px;
-    text-align: left;
 }
 
-.bio-left {
-    flex-shrink: 0;
-}
-
-.bio-pfp {
+.pc-bio-pfp {
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -107,7 +102,7 @@ footer {
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
-.bio-right {
+.pc-bio-text {
     max-width: 600px;
     font-size: 22px;
 }
