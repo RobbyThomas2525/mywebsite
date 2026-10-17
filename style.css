@@ -84,16 +84,22 @@ footer {
     font-size: 40px;
 }
 
-/* EXACT BIO STYLE but horizontal */
-.pc-bio-layout {
+/* EXACT same container your homepage uses */
+.bio-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
     margin-top: 40px;
 }
 
-.pc-bio-pfp {
+/* Left side (profile picture) */
+.bio-left {
+    flex-shrink: 0;
+}
+
+/* Profile picture style */
+.bio-pfp {
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -102,7 +108,8 @@ footer {
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
-.pc-bio-text {
+/* Right side (text) */
+.bio-right {
     max-width: 600px;
     font-size: 22px;
 }
