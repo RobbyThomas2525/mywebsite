@@ -84,19 +84,20 @@ footer {
     font-size: 40px;
 }
 
-.pc-specs-center {
+.bio-split-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    gap: 50px;
-    margin-top: 50px;
+    align-items: center;
+    gap: 60px;
+    margin-top: 40px;
+    text-align: left;
 }
 
-.pc-left {
+.bio-left {
     flex-shrink: 0;
 }
 
-.pc-pfp {
+.bio-pfp {
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -105,7 +106,7 @@ footer {
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
-.pc-right {
+.bio-right {
     max-width: 600px;
-    font-size: 20px;
+    font-size: 22px;
 }
